@@ -3,7 +3,7 @@ PATH
   specs:
     acts_as_lockable_by (0.1.12)
       activesupport (>= 5, < 8)
-      redis (~> 4)
+      redis (~> 5)
 
 GEM
   remote: https://rubygems.org/
@@ -46,7 +46,10 @@ GEM
     racc (1.7.1)
     rainbow (3.0.0)
     rake (13.0.1)
-    redis (4.8.1)
+    redis (5.2.0)
+      redis-client (>= 0.22.0)
+    redis-client (0.22.1)
+      connection_pool
     regexp_parser (1.7.1)
     reverse_markdown (2.0.0)
       nokogiri
